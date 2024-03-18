@@ -14,9 +14,10 @@
 main {
     background-image: url(../Imagenes/fondo.webp);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    object-fit: cover;
+    max-width: 100%;
+
 }
 
 /* header */
