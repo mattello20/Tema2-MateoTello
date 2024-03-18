@@ -1,0 +1,156 @@
+:root {
+    --white: white;
+    --black: black;
+    --principal: #3F51B5;
+    --secondary: rgb(197, 195, 230);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(../Imagenes/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* header */
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+    font-size: small;
+}
+
+.header-container h1 {
+    color: var(--black);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 2px #3F51B5;
+}
+
+.header-img {
+    width: 110px;
+    height: 110px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    height: 10vh;
+    width: -20vh;
+    border: 1px solid var(--principal);
+}
+
+a {
+    margin: 2rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    box-shadow: 3px 6px 5px 1px rgba(63,81,181,1);
+    font-size: medium;
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* main */
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.card {
+    background-color: var(--secondary);
+    border: 1px solid var(--black);
+    margin: 1rem;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card img {
+    width: 210px;
+    height: 160px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table,th,tr,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.1rem;
+}
+
+.list, .table {
+    margin: 2rem;
+}
+
+.list {
+    border: 1px solid black;
+    padding: 1rem 7rem 0.5rem 2rem;
+    background-color: var(--secondary);
+}
+
+.table {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary);
+}
+
+.list ul {
+    font-size: medium;
+}
+
+.table thead, tbody{
+    font-size: medium;
+    text-align: center;
+    background-color: var(--white);
+}
+
+/* footer */
+
+.section-footer{
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.1rem;
+}
+
+p {
+    color: var(--white);
+}
+
+form {
+    color: var(--white);
+    padding: 0.6rem;
+}
+
+fieldset {
+    padding: 1rem;
+}
