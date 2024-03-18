@@ -14,6 +14,7 @@
 main {
     background-image: url(../Imagenes/fondo.webp);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     object-fit: cover;
 }
@@ -25,7 +26,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 17vh;
+    height: 19vh;
     font-size: small;
 }
 
